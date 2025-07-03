@@ -19,6 +19,13 @@
 		18DA551D2E156A90000082DD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA551C2E156A90000082DD /* BaseViewController.swift */; };
 		18DA55222E156D0A000082DD /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 18DA55212E156D0A000082DD /* SDWebImage */; };
 		18DA55242E156D0A000082DD /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 18DA55232E156D0A000082DD /* SDWebImageMapKit */; };
+		18EAADF72E17306700335513 /* Color+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAADEF2E17306700335513 /* Color+Extentions.swift */; };
+		18EAADF82E17306700335513 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAADF02E17306700335513 /* DesignableView.swift */; };
+		18EAADF92E17306700335513 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAADF12E17306700335513 /* NibView.swift */; };
+		18EAADFA2E17306700335513 /* String+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAADF22E17306700335513 /* String+EXT.swift */; };
+		18EAADFB2E17306700335513 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAADF32E17306700335513 /* UIStoryboard.swift */; };
+		18EAADFC2E17306700335513 /* UIView+FuncExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAADF42E17306700335513 /* UIView+FuncExt.swift */; };
+		18EAADFD2E17306700335513 /* UIViewController+FuncExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAADF52E17306700335513 /* UIViewController+FuncExt.swift */; };
 		3F0D283D0409A1F29E202200 /* libPods-TopMovieUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 599C56B84A348EA2EE6EB935 /* libPods-TopMovieUITests.a */; };
 		7F811C47764210D08C93AFFE /* Pods_TopMovie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 290A4B4C21E57714107AA603 /* Pods_TopMovie.framework */; };
 /* End PBXBuildFile section */
@@ -65,6 +72,13 @@
 		18AF49AC2E153D540075C100 /* TopMovieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMovieUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		18DA55102E155331000082DD /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		18DA551C2E156A90000082DD /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		18EAADEF2E17306700335513 /* Color+Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extentions.swift"; sourceTree = "<group>"; };
+		18EAADF02E17306700335513 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		18EAADF12E17306700335513 /* NibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
+		18EAADF22E17306700335513 /* String+EXT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+EXT.swift"; sourceTree = "<group>"; };
+		18EAADF32E17306700335513 /* UIStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
+		18EAADF42E17306700335513 /* UIView+FuncExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+FuncExt.swift"; sourceTree = "<group>"; };
+		18EAADF52E17306700335513 /* UIViewController+FuncExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+FuncExt.swift"; sourceTree = "<group>"; };
 		24EAA59A8752BBD593FDD7B7 /* Pods-TopMovie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopMovie.debug.xcconfig"; path = "Target Support Files/Pods-TopMovie/Pods-TopMovie.debug.xcconfig"; sourceTree = "<group>"; };
 		290A4B4C21E57714107AA603 /* Pods_TopMovie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopMovie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3176450A25770311F0AC42B0 /* Pods-TopMovieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopMovieTests.debug.xcconfig"; path = "Target Support Files/Pods-TopMovieTests/Pods-TopMovieTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +151,7 @@
 				18AF49922E153D540075C100 /* Assets.xcassets */,
 				18DA55102E155331000082DD /* Colors.xcassets */,
 				18AF49972E153D540075C100 /* Info.plist */,
+				18EAADF62E17306700335513 /* Extentions */,
 			);
 			path = TopMovie;
 			sourceTree = "<group>";
@@ -164,6 +179,21 @@
 				18DA551C2E156A90000082DD /* BaseViewController.swift */,
 			);
 			path = Init;
+			sourceTree = "<group>";
+		};
+		18EAADF62E17306700335513 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				18EAADEF2E17306700335513 /* Color+Extentions.swift */,
+				18EAADF02E17306700335513 /* DesignableView.swift */,
+				18EAADF12E17306700335513 /* NibView.swift */,
+				18EAADF22E17306700335513 /* String+EXT.swift */,
+				18EAADF32E17306700335513 /* UIStoryboard.swift */,
+				18EAADF42E17306700335513 /* UIView+FuncExt.swift */,
+				18EAADF52E17306700335513 /* UIViewController+FuncExt.swift */,
+			);
+			name = Extentions;
+			path = ../../../TopMovie/TopMovie/TopMovie/Extentions;
 			sourceTree = "<group>";
 		};
 		32D524149FCE9A6E73EFB4A5 /* Frameworks */ = {
@@ -421,7 +451,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EAADFC2E17306700335513 /* UIView+FuncExt.swift in Sources */,
+				18EAADFB2E17306700335513 /* UIStoryboard.swift in Sources */,
+				18EAADF92E17306700335513 /* NibView.swift in Sources */,
+				18EAADF72E17306700335513 /* Color+Extentions.swift in Sources */,
 				18DA551D2E156A90000082DD /* BaseViewController.swift in Sources */,
+				18EAADF82E17306700335513 /* DesignableView.swift in Sources */,
+				18EAADFD2E17306700335513 /* UIViewController+FuncExt.swift in Sources */,
+				18EAADFA2E17306700335513 /* String+EXT.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
