@@ -1,0 +1,22 @@
+PODS:
+  - CDAlertView (0.11.0)
+  - NVActivityIndicatorView (5.2.0):
+    - NVActivityIndicatorView/Base (= 5.2.0)
+  - NVActivityIndicatorView/Base (5.2.0)
+
+DEPENDENCIES:
+  - CDAlertView
+  - NVActivityIndicatorView
+
+SPEC REPOS:
+  trunk:
+    - CDAlertView
+    - NVActivityIndicatorView
+
+SPEC CHECKSUMS:
+  CDAlertView: cd6624e857c85ad14560e2cd23d7eb25b983b590
+  NVActivityIndicatorView: fe52a6a68664c2df8991d7d9e3d86d8d19453c53
+
+PODFILE CHECKSUM: db2c881acb4728a44d63da14c347e8e37c095f37
+
+COCOAPODS: 1.16.2
