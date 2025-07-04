@@ -215,25 +215,9 @@
 			path = TopMovieUITests;
 			sourceTree = "<group>";
 		};
-		18B0A2912E177641009B7B1A /* FontManager */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = FontManager;
-			sourceTree = "<group>";
-		};
-		18B0A2922E177641009B7B1A /* Font */ = {
-			isa = PBXGroup;
-			children = (
-				18B0A2912E177641009B7B1A /* FontManager */,
-			);
-			path = Font;
-			sourceTree = "<group>";
-		};
 		18B0A29A2E177641009B7B1A /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
-				18B0A2922E177641009B7B1A /* Font */,
 				18B0A2932E177641009B7B1A /* Color+Extentions.swift */,
 				18B0A2942E177641009B7B1A /* DesignableView.swift */,
 				18B0A2952E177641009B7B1A /* NibView.swift */,
