@@ -12,20 +12,18 @@
 		18AF49A12E153D540075C100 /* TopMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF49A02E153D540075C100 /* TopMovieTests.swift */; };
 		18AF49AB2E153D540075C100 /* TopMovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF49AA2E153D540075C100 /* TopMovieUITests.swift */; };
 		18AF49AD2E153D540075C100 /* TopMovieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF49AC2E153D540075C100 /* TopMovieUITestsLaunchTests.swift */; };
+		18B0A29B2E177641009B7B1A /* Color+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0A2932E177641009B7B1A /* Color+Extentions.swift */; };
+		18B0A29C2E177641009B7B1A /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0A2942E177641009B7B1A /* DesignableView.swift */; };
+		18B0A29D2E177641009B7B1A /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0A2952E177641009B7B1A /* NibView.swift */; };
+		18B0A29E2E177641009B7B1A /* String+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0A2962E177641009B7B1A /* String+EXT.swift */; };
+		18B0A29F2E177641009B7B1A /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0A2972E177641009B7B1A /* UIStoryboard.swift */; };
+		18B0A2A02E177641009B7B1A /* UIView+FuncExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0A2982E177641009B7B1A /* UIView+FuncExt.swift */; };
+		18B0A2A12E177641009B7B1A /* UIViewController+FuncExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B0A2992E177641009B7B1A /* UIViewController+FuncExt.swift */; };
 		18DA55072E154FAD000082DD /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 18DA55062E154FAD000082DD /* Alamofire */; };
-		18DA55092E154FAD000082DD /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 18DA55082E154FAD000082DD /* AlamofireDynamic */; };
-		18DA550A2E154FAD000082DD /* AlamofireDynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 18DA55082E154FAD000082DD /* AlamofireDynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		18DA55112E155331000082DD /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DA55102E155331000082DD /* Colors.xcassets */; };
 		18DA551D2E156A90000082DD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA551C2E156A90000082DD /* BaseViewController.swift */; };
 		18DA55222E156D0A000082DD /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 18DA55212E156D0A000082DD /* SDWebImage */; };
 		18DA55242E156D0A000082DD /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 18DA55232E156D0A000082DD /* SDWebImageMapKit */; };
-		18EAADF72E17306700335513 /* Color+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAADEF2E17306700335513 /* Color+Extentions.swift */; };
-		18EAADF82E17306700335513 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAADF02E17306700335513 /* DesignableView.swift */; };
-		18EAADF92E17306700335513 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAADF12E17306700335513 /* NibView.swift */; };
-		18EAADFA2E17306700335513 /* String+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAADF22E17306700335513 /* String+EXT.swift */; };
-		18EAADFB2E17306700335513 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAADF32E17306700335513 /* UIStoryboard.swift */; };
-		18EAADFC2E17306700335513 /* UIView+FuncExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAADF42E17306700335513 /* UIView+FuncExt.swift */; };
-		18EAADFD2E17306700335513 /* UIViewController+FuncExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAADF52E17306700335513 /* UIViewController+FuncExt.swift */; };
 		18EAAE512E17334500335513 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAAE362E17334500335513 /* MovieModel.swift */; };
 		18EAAE522E17334500335513 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EAAE382E17334500335513 /* HomeTableViewCell.swift */; };
 		18EAAE532E17334500335513 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EAAE392E17334500335513 /* HomeTableViewCell.xib */; };
@@ -75,7 +73,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				18DA550A2E154FAD000082DD /* AlamofireDynamic in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,15 +88,15 @@
 		18AF49A62E153D540075C100 /* TopMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AF49AA2E153D540075C100 /* TopMovieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMovieUITests.swift; sourceTree = "<group>"; };
 		18AF49AC2E153D540075C100 /* TopMovieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMovieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18B0A2932E177641009B7B1A /* Color+Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extentions.swift"; sourceTree = "<group>"; };
+		18B0A2942E177641009B7B1A /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		18B0A2952E177641009B7B1A /* NibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
+		18B0A2962E177641009B7B1A /* String+EXT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+EXT.swift"; sourceTree = "<group>"; };
+		18B0A2972E177641009B7B1A /* UIStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
+		18B0A2982E177641009B7B1A /* UIView+FuncExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+FuncExt.swift"; sourceTree = "<group>"; };
+		18B0A2992E177641009B7B1A /* UIViewController+FuncExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+FuncExt.swift"; sourceTree = "<group>"; };
 		18DA55102E155331000082DD /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		18DA551C2E156A90000082DD /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		18EAADEF2E17306700335513 /* Color+Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extentions.swift"; sourceTree = "<group>"; };
-		18EAADF02E17306700335513 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
-		18EAADF12E17306700335513 /* NibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
-		18EAADF22E17306700335513 /* String+EXT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+EXT.swift"; sourceTree = "<group>"; };
-		18EAADF32E17306700335513 /* UIStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
-		18EAADF42E17306700335513 /* UIView+FuncExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+FuncExt.swift"; sourceTree = "<group>"; };
-		18EAADF52E17306700335513 /* UIViewController+FuncExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+FuncExt.swift"; sourceTree = "<group>"; };
 		18EAAE362E17334500335513 /* MovieModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 		18EAAE382E17334500335513 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		18EAAE392E17334500335513 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
@@ -139,7 +136,6 @@
 			files = (
 				7F811C47764210D08C93AFFE /* Pods_TopMovie.framework in Frameworks */,
 				18DA55242E156D0A000082DD /* SDWebImageMapKit in Frameworks */,
-				18DA55092E154FAD000082DD /* AlamofireDynamic in Frameworks */,
 				18DA55222E156D0A000082DD /* SDWebImage in Frameworks */,
 				18DA55072E154FAD000082DD /* Alamofire in Frameworks */,
 			);
@@ -193,11 +189,11 @@
 				18AF49922E153D540075C100 /* Assets.xcassets */,
 				18DA55102E155331000082DD /* Colors.xcassets */,
 				18AF49972E153D540075C100 /* Info.plist */,
+				18B0A29A2E177641009B7B1A /* Extentions */,
 				18EAAE722E17336A00335513 /* Base */,
 				18EAAE6A2E17335B00335513 /* UseCase */,
 				18EAAE602E17335100335513 /* NetworkLayer */,
 				18EAAE502E17334500335513 /* Scenes */,
-				18EAADF62E17306700335513 /* Extentions */,
 			);
 			path = TopMovie;
 			sourceTree = "<group>";
@@ -219,27 +215,42 @@
 			path = TopMovieUITests;
 			sourceTree = "<group>";
 		};
+		18B0A2912E177641009B7B1A /* FontManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FontManager;
+			sourceTree = "<group>";
+		};
+		18B0A2922E177641009B7B1A /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				18B0A2912E177641009B7B1A /* FontManager */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		18B0A29A2E177641009B7B1A /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				18B0A2922E177641009B7B1A /* Font */,
+				18B0A2932E177641009B7B1A /* Color+Extentions.swift */,
+				18B0A2942E177641009B7B1A /* DesignableView.swift */,
+				18B0A2952E177641009B7B1A /* NibView.swift */,
+				18B0A2962E177641009B7B1A /* String+EXT.swift */,
+				18B0A2972E177641009B7B1A /* UIStoryboard.swift */,
+				18B0A2982E177641009B7B1A /* UIView+FuncExt.swift */,
+				18B0A2992E177641009B7B1A /* UIViewController+FuncExt.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
 		18DA551B2E156A79000082DD /* Init */ = {
 			isa = PBXGroup;
 			children = (
 				18DA551C2E156A90000082DD /* BaseViewController.swift */,
 			);
 			path = Init;
-			sourceTree = "<group>";
-		};
-		18EAADF62E17306700335513 /* Extentions */ = {
-			isa = PBXGroup;
-			children = (
-				18EAADEF2E17306700335513 /* Color+Extentions.swift */,
-				18EAADF02E17306700335513 /* DesignableView.swift */,
-				18EAADF12E17306700335513 /* NibView.swift */,
-				18EAADF22E17306700335513 /* String+EXT.swift */,
-				18EAADF32E17306700335513 /* UIStoryboard.swift */,
-				18EAADF42E17306700335513 /* UIView+FuncExt.swift */,
-				18EAADF52E17306700335513 /* UIViewController+FuncExt.swift */,
-			);
-			name = Extentions;
-			path = ../../../TopMovie/TopMovie/TopMovie/Extentions;
 			sourceTree = "<group>";
 		};
 		18EAAE372E17334500335513 /* Model */ = {
@@ -463,7 +474,6 @@
 			name = TopMovie;
 			packageProductDependencies = (
 				18DA55062E154FAD000082DD /* Alamofire */,
-				18DA55082E154FAD000082DD /* AlamofireDynamic */,
 				18DA55212E156D0A000082DD /* SDWebImage */,
 				18DA55232E156D0A000082DD /* SDWebImageMapKit */,
 			);
@@ -678,17 +688,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B0A2A02E177641009B7B1A /* UIView+FuncExt.swift in Sources */,
 				18EAAE732E17336A00335513 /* AppDelegate.swift in Sources */,
+				18B0A29B2E177641009B7B1A /* Color+Extentions.swift in Sources */,
 				18EAAE5A2E17334500335513 /* MovieDetailsViewController.swift in Sources */,
+				18B0A29F2E177641009B7B1A /* UIStoryboard.swift in Sources */,
+				18B0A2A12E177641009B7B1A /* UIViewController+FuncExt.swift in Sources */,
 				18EAAE512E17334500335513 /* MovieModel.swift in Sources */,
-				18EAADFC2E17306700335513 /* UIView+FuncExt.swift in Sources */,
-				18EAADFB2E17306700335513 /* UIStoryboard.swift in Sources */,
 				18EAAE542E17334500335513 /* HomeView+TableExtention.swift in Sources */,
-				18EAADF92E17306700335513 /* NibView.swift in Sources */,
 				18EAAE612E17335100335513 /* ErrorModel.swift in Sources */,
-				18EAADF72E17306700335513 /* Color+Extentions.swift in Sources */,
 				18EAAE592E17334500335513 /* MovieDetails+FuncExt.swift in Sources */,
 				18EAAE552E17334500335513 /* ViewController.swift in Sources */,
+				18B0A29E2E177641009B7B1A /* String+EXT.swift in Sources */,
+				18B0A29C2E177641009B7B1A /* DesignableView.swift in Sources */,
 				18EAAE5C2E17334500335513 /* MovieDetailsViewModel.swift in Sources */,
 				18DA551D2E156A90000082DD /* BaseViewController.swift in Sources */,
 				18EAAE622E17335100335513 /* Request.swift in Sources */,
@@ -699,10 +711,8 @@
 				18EAAE632E17335100335513 /* URLs.swift in Sources */,
 				18EAAE522E17334500335513 /* HomeTableViewCell.swift in Sources */,
 				18EAAE752E17336A00335513 /* SceneDelegate.swift in Sources */,
-				18EAADF82E17306700335513 /* DesignableView.swift in Sources */,
-				18EAADFD2E17306700335513 /* UIViewController+FuncExt.swift in Sources */,
-				18EAADFA2E17306700335513 /* String+EXT.swift in Sources */,
 				18EAAE6D2E17335B00335513 /* SaveFavData.swift in Sources */,
+				18B0A29D2E177641009B7B1A /* NibView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1090,11 +1100,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 18DA55052E154F32000082DD /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
-		};
-		18DA55082E154FAD000082DD /* AlamofireDynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 18DA55052E154F32000082DD /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = AlamofireDynamic;
 		};
 		18DA55212E156D0A000082DD /* SDWebImage */ = {
 			isa = XCSwiftPackageProductDependency;
